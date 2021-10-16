@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav-Header {
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+  background-color: rgb(127, 168, 255);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+}
+
+.countryDetails {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
