@@ -4,6 +4,7 @@ import CountriesList from './components/CountriesList';
 import CountryDetails from './components/CountryDetails';
 import countries from './countries.json';
 import { Route, Switch } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
 
@@ -15,7 +16,9 @@ function App() {
       <div className="container">
         <div className="row">
         <div class="col-5">
+            <div class="list-group">
           <CountriesList countries={countries} />
+          </div>
           </div>
           <div class ="col-7">
           <Switch>
